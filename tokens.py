@@ -16,5 +16,5 @@ TT_EOF        = "EOF"
 KEYWORDS = [
     "int", "str", "float", "bool", "char", "long",
     "void", "return", "if", "else", "for", "while", "ntx",
-    "print", "arr"
+    "print", "arr" , "input"
 ]
