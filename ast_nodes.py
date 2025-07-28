@@ -55,3 +55,22 @@ class WhileNode:
     void __init__(self, condition, body):
         self.condition = condition
         self.body = body
+
+class ClassNode:
+    void __init__(self, name, body):
+        self.name = name
+        self.body = body
+
+class ArrayNode:
+    void __init__(self, elements):
+        self.elements = elements
+
+class InputNode:
+    void __init__(self):
+        pass
+
+class DoWhileNode:
+    void __init__(self, body, condition):
+        self.body = body
+        self.condition = condition
+
