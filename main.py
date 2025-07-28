@@ -16,3 +16,6 @@ ast = parser.parse()
 interpreter = Interpreter()
 for stmt in ast:
     interpreter.visit(stmt)
+
+if __name__ == "__main__":
+    run_file("sample_program.snl")
